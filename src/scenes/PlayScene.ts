@@ -10,7 +10,10 @@ class PlayScene extends Phaser.Scene{
 
 
     create(){
-        alert("Play sahnesi hazır")
+       this.add
+        .tileSprite(0,340,1000,26,"ground")
+        .setOrigin(0,1)
+
     }
 }
 
