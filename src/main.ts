@@ -1,6 +1,8 @@
 
 
 import { Game, Types } from "phaser";
+import PreloadScene from "./scenes/PreloadScene";
+import PlayScene from "./scenes/PlayScene";
 
 const config: Types.Core.GameConfig = {
     type: Phaser.AUTO,
@@ -15,18 +17,9 @@ const config: Types.Core.GameConfig = {
         mode: Phaser.Scale.FIT,
         autoCenter: Phaser.Scale.CENTER_BOTH
     },
-    scene: {
-        preload:preload,
-        create:create
-    }
+    scene: [PreloadScene,PlayScene]
 };
 
 export default new Game(config);
 
-function preload(){
 
-}
-
-function create(){
-
-}
