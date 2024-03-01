@@ -12,6 +12,10 @@ const config: Types.Core.GameConfig = {
     transparent:true,
     physics:{
         default:'arcade',
+        arcade:{
+            debug:true
+        }
+        
     },
     //parent: 'game-container',
     // scale: {
