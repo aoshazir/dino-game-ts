@@ -1,15 +1,13 @@
 body {
-    margin: 0;
-    padding: 0;
-    color: rgba(255, 255, 255, 0.87);
-    background-color: #000000;
+    padding: 200px;
+    
 }
 
-#app {
+/* #app {
     width: 100%;
     height: 100vh;
     overflow: hidden;
     display: flex;
     justify-content: center;
     align-items: center;
-}
+} */
